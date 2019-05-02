@@ -1,0 +1,10 @@
+<div id="add-block">
+  <form action="" method="post" class="--form-margin7px" id="pages-editor">
+    <input type="hidden" name="item-id" value="<?=$page_id?>">
+    <input type="text" name="title" placeholder="Заголовок" value="<?=$page_title?>">
+    <textarea name="content" rows="8" cols="80" placeholder="Контент страницы"><?=$page_content?></textarea>
+  </form>
+</div>
+<div id="controls">
+  <button type="submit" form="pages-editor" name="form-type" value="<?=$form_type?>"><?=$btn_value?></button>
+</div>

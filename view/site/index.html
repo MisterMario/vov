@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><?=$siteTitle?></title>
+  	<meta charset="<?=$siteCharset?>">
+    <link rel="stylesheet" type="text/css" href="/<?=VIEW_CATALOG.VIEW_SITE?>/styles/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="inside-header">
+          <div id="menu">
+            <ul class="menu">
+              <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator-menu.png">
+              <li><a href="/">Главная</a></li>
+              <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator-menu.png">
+              <li><a href="/page/1/">Связь с разработчиком</a></li>
+              <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator-menu.png">
+              <li><a href="/admin/">Администрирование</a></li>
+              <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator-menu.png">
+              <li><a href="/page/2/">О нас</a></li>
+              <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator-menu.png">
+            </ul>
+          </div>
+          <div id="icons-group">
+            <ul>
+              <li><a href="#"><img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/mail.png" /></a></li>
+              <li><a href="#"><img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/rss.png" /></a></li>
+              <li><a href="#"><img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/twitter.png" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="main-container">
+        <div id="logo">
+          <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/logo.png" />
+        </div>
+        <div id="main-header">
+          <div id="topmenu">
+            <ul class="menu">
+              <?=$navigationBar?>
+            </ul>
+          </div>
+          <div id="separator"></div>
+          <div id="section-title">
+            <h1><?=$sectionName?></h1>
+          </div>
+        </div>
+        <div id="main-content">
+          <div id="left-block">
+            <?=$leftBlock?>
+          </div>
+          <div id="right-block">
+            <div id="search-panel">
+              <form action="" method="post" class="search">
+                <input type="hidden" name="form-type" value="search-form">
+                <input type="text" placeholder="Поиск..." name="search-string">
+                <button type="submit"><img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/search-button.png" alt=""></button>
+              </form>
+            </div>
+            <?=$rightBlock?>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="inside-footer">
+          <div id="logo">
+            <img src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/logo.png" />
+          </div>
+            <div id="menu">
+              <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/page/1/">Связь с разработчиком</a></li>
+                <li><a href="/page/2/">О нас</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

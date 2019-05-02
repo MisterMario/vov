@@ -1,0 +1,21 @@
+<div id="news-post">
+  <img src="/<?=NEWS_IMAGES_CATALOG?><?=$post_image?>" alt="" class="post-image">
+  <h2 class="title"><?=$post_title?></h2>
+  <p class="information">Автор: <?=$post_author?> / Просмотров: <?=$post_countOfViews?> / <a href="<?=$category_link?>"><?=$post_category?></a></p>
+  <p class="full-text"><?=$post_content?></p>
+</div>
+<img class="posts-separator" src="/<?=VIEW_CATALOG.VIEW_SITE?>/images/separator.png" />
+<div id="comments-block">
+  <h2>Комментарии</h2>
+  <a name="comment"></a>
+  <div id="add-comment-block">
+    <form action="" method="post" class="add-comment">
+      <input type="hidden" name="form-type" value="add-comment">
+      <input type="hidden" name="post-id" value="<?=$post_id?>">
+      <textarea name="comment-text" rows="6" cols="80" placeholder="Текст комментария"></textarea>
+      <input type="text" placeholder="Автор" name="comment-author">
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+  <?=$comments_block?>
+</div>

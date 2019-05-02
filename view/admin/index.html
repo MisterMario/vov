@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="<?=$siteCharset?>">
+    <title><?=$siteTitle?></title>
+    <link rel="stylesheet" type="text/css" href="/view/admin/styles/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!--[]-->
+      <div id="panel">
+        <div id="header">
+          <div id="inside-header">
+            <div id="logo"><img src="/view/admin/images/slogo.png" alt=""></div>
+            <div id="user-info">
+              <h2 id="user-name"><?=$userName?></h2>
+              <form action="" method="POST">
+                <button type="submit" name="form-type" value="logout">Выход</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="left-block">
+          <div id="menu">
+            <div id="menu-header">
+              <h1>МЕНЮ</h1>
+            </div>
+            <div id="menu-content">
+              <ul class="menu">
+                <div class="separator"></div>
+                <li><a href="/">Главная</a></li>
+                <div class="separator"></div>
+                <li><a href="/admin/news/">Новости</a></li>
+                <div class="separator"></div>
+                <li><a href="/admin/widgets/">Виджеты</a></li>
+                <div class="separator"></div>
+                <li><a href="/admin/pages/">Динамические страницы</a></li>
+                <div class="separator"></div>
+                <li><a href="/admin/categories/">Категории</a></li>
+                <div class="separator"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="right-block">
+          <div id="inside-right-block">
+            <div id="section-name">
+              <h1><?=$sectionName?></h1>
+            </div>
+            <?=$rightBlock?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

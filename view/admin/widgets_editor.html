@@ -1,0 +1,10 @@
+<div id="add-block">
+  <form action="" method="post" class="--form-margin7px" id="widgets-editor">
+    <input type="hidden" name="item-id" value="<?=$widget_id?>">
+    <input type="text" name="title" placeholder="Заголовок" value="<?=$widget_title?>">
+    <textarea name="content" rows="8" cols="80" placeholder="Контент виджета"><?=$widget_content?></textarea>
+  </form>
+</div>
+<div id="controls">
+  <button type="submit" form="widgets-editor" name="form-type" value="<?=$form_type?>"><?=$btn_value?></button>
+</div>

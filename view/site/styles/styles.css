@@ -1,0 +1,278 @@
+/* Styles by Mr_Mario (Savich Konstantin) */
+@import url(reset.css);
+
+html, html a, html textarea, html input, html button {
+  color: #646464;
+  font-size: 15px;
+  font-family: arial;
+  text-decoration: none;
+}
+html a:hover {
+  text-decoration: underline;
+}
+html div, html form {
+  overflow: hidden;
+}
+html h2 {
+  font-size: 25px;
+}
+#container,
+#container #header,
+#container #main-container #main-header,
+#container #main-container #main-header #topmenu,
+#container #main-container #main-header #separator,
+#container #main-container #main-header #section-title,
+#container #main-container #main-content,
+#container #main-container #main-content #left-block #comments-block #add-comment-block,
+#container #main-container #main-content #left-block #comments-block #comment,
+#container #main-container #main-content #right-block #search-panel,
+#container #main-container #main-content #right-block #widget #widget-header,
+#container #main-container #main-content #right-block #widget #widget-footer,
+#container #footer {
+  width: 100%;
+}
+#container #header {
+  height: 57px;
+  background: #0dbfe5;
+}
+#container #header #inside-header,
+#container #footer #inside-footer {
+  height: 100%;
+  margin: 0px 50px;
+}
+#container #header #inside-header #menu {
+  overflow: visible;
+}
+#container #header #inside-header #menu ul li,
+#container #header #inside-header #menu ul img,
+#container #main-container #main-header #topmenu ul li,
+#container #main-container #main-header #topmenu ul img,
+#container #footer #inside-footer #menu ul li,
+#container #header #inside-header #icons-group ul li,
+#container #main-container #main-content #left-block,
+#container #main-container #main-content #right-block,
+#container #footer #inside-footer #logo {
+  float: left;
+}
+#container #header #inside-header #menu ul li a,
+#container #main-container #main-header #topmenu ul li a {
+  display: block;
+  color: #ffffff;
+  padding: 21px 18px;
+}
+#container #header #inside-header #menu ul li a:hover {
+  background:  #1298b5;
+  text-decoration: none;
+}
+#container #header #inside-header #icons-group {
+  float: right;
+}
+#container #header #inside-header #icons-group ul li {
+  padding: 18.5px 5px 18.5px 0px;
+}
+#container #header #inside-header #icons-group ul li:last-child {
+  padding-right: 0px;
+}
+#container #main-container {
+  width: 1200px;
+  margin: 0px auto;
+}
+#container #main-container #logo {
+  margin: 34px 0px 47px 0px;
+}
+#container #main-container #main-header #topmenu {
+  height: 60px;
+  background: #2e2e2e;
+}
+#container #main-container #main-header #topmenu ul li a {
+  padding: 22.5px 18px;
+}
+#container #main-container #main-header #topmenu ul li a:hover {
+  background: #686767;
+  text-decoration: none;
+}
+#container #main-container #main-header #separator {
+  height: 10px;
+  background: #000000;
+}
+#container #main-container #main-header #section-title {
+  height: 104px;
+  background: #eeeeee;
+}
+#container #main-container #main-header #section-title h1 {
+  color: #a4a4a4;
+  font-size: 34px;
+  text-align: center;
+  padding: 30px 0px;
+}
+#container #main-container #main-content {
+    margin-top: 46px;
+}
+#container #main-container #main-content #left-block {
+  width: 800px;
+}
+#container #main-container #main-content #left-block #news-post img.post-image {
+  display: block;
+  width: 800px;
+  height: 300px;
+}
+#container #main-container #main-content #left-block #news-post h2.title {
+  display: block;
+  margin-top: 20px;
+}
+#container #main-container #main-content #left-block #news-post p.information,
+#container #main-container #main-content #left-block #comments-block #comment p.information {
+  color: #9c9c9c;
+  display: block;
+  margin-top: 22px
+}
+#container #main-container #main-content #left-block #news-post p.information a {
+  color: #9c9c9c;
+}
+#container #main-container #main-content #left-block #news-post p.description,
+#container #main-container #main-content #left-block #news-post p.full-text,
+#container #main-container #main-content #left-block #comments-block #comment p.text {
+  display: block;
+  line-height: 1.3em;
+  margin-top: 20px;
+  text-align: justify;
+}
+#container #main-container #main-content #left-block #news-post a.btn-more-info {
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 0.2em;
+  width: 101px;
+  text-align: center;
+  padding: 9.5px 14px;
+  color: #ffffff;
+  background: #979797;
+  text-decoration: none;
+}
+#container #main-container #main-content #left-block #news-post a.btn-more-info:hover {
+  background: #4e4e4e;
+}
+#container #main-container #main-content #left-block img.posts-separator {
+  display: block;
+  margin: 40px auto 59px auto;
+}
+#container #main-container #main-content #left-block img.posts-separator:last-child {
+  margin-bottom: 0px;
+}
+/* Full news post */
+#container #main-container #main-content #left-block #comments-block #add-comment-block,
+#container #main-container #main-content #left-block #comments-block #comment,
+#container #main-container #main-content #left-block #comments-block p.message-error {
+  margin-top: 22px;
+}
+#container #main-container #main-content #left-block #comments-block #add-comment-block textarea,
+#container #main-container #main-content #left-block #comments-block #add-comment-block input[type="text"],
+#container #main-container #main-content #left-block #comments-block #add-comment-block button {
+  border: 1px solid #646464;
+  padding: 6px;
+  margin: 0px;
+  display: block;
+  float: left;
+}
+#container #main-container #main-content #left-block #comments-block #add-comment-block textarea {
+  border-radius: 0.6em 0.6em 0em 0em;
+  resize: none;
+  width: 98.2%
+}
+#container #main-container #main-content #left-block #comments-block #add-comment-block input[type="text"] {
+  border-radius: 0em 0em 0em 0.6em;
+  border-top: 0px;
+  width: 87.3%;
+}
+#container #main-container #main-content #left-block #comments-block #add-comment-block button {
+  border-radius: 0em 0em 0.6em 0em;
+  border-top: 0px;
+  border-left: 0px;
+  color: #ffff;
+  background: #979797;
+  cursor: pointer;
+}
+#container #main-container #main-content #left-block #comments-block #add-comment-block button:hover {
+  background: #4e4e4e;
+}
+#container #main-container #main-content #left-block #comments-block #comment p.information {
+  margin-top: 0px;
+}
+#container #main-container #main-content #left-block #dynamic-page {
+  text-align: justify;
+}
+/* Right block */
+#container #main-container #main-content #right-block {
+  width: 350px;
+  margin-left: 49px;
+}
+#container #main-container #main-content #right-block #search-panel {
+  height: 50px;
+  background: #eeeeee;
+}
+#container #main-container #main-content #right-block #search-panel form.search {
+  padding: 15px 20px;
+}
+#container #main-container #main-content #right-block #search-panel form input[type="text"],
+#container #main-container #main-content #right-block #search-panel button {
+  padding: 0px;
+  border: none;
+  outline: none;
+  background: #eeeeee;
+}
+#container #main-container #main-content #right-block #search-panel form input[type="text"] {
+  width: 288px;
+  font-size: 17px;
+}
+#container #main-container #main-content #right-block #search-panel button {
+  cursor: pointer;
+}
+#container #main-container #main-content #right-block #widget {
+  margin-top: 48px;
+}
+#container #main-container #main-content #right-block #widget #widget-header {
+  height: 42px;
+}
+#container #main-container #main-content #right-block #widget #widget-header,
+#container #main-container #main-content #right-block #widget #widget-footer {
+  background: #f6f6f6;
+}
+#container #main-container #main-content #right-block #widget #widget-header h3 {
+  font-weight: bold;
+  padding: 12px 0px 15px 21px;
+}
+#container #main-container #main-content #right-block #widget #widget-content,
+#container #main-container #main-content #right-block #widget #widget-content ul li {
+  margin-top: 17px;
+}
+#container #main-container #main-content #right-block #widget #widget-content ul li:first-child {
+  margin-top: 0px;
+}
+#container #main-container #main-content #right-block #widget #widget-footer {
+  height: 1px;
+  margin-top: 14px;
+}
+#container #footer {
+  height: 88px;
+  clear: both;
+  margin-top: 273px;
+  background: #0dbfe5;
+}
+#container #footer #inside-footer #logo img {
+  margin: 26px 0px;
+}
+#container #footer #inside-footer #menu {
+  float: right;
+}
+#container #footer #inside-footer #menu ul li {
+  margin: 36.5px 0px 36.5px 25px;
+}
+#container #footer #inside-footer #menu ul li:first-child {
+  margin-left: 0px;
+}
+#container #footer #inside-footer #menu ul li a {
+  color: #ffffff;
+}
+#container #footer #inside-footer #menu ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+<tr>
+  <td><?=$post_id?></td>
+  <td><?=$post_category?></td>
+  <td><?=$post_title?></td>
+  <td><?=$post_author?></td>
+  <td><?=$post_countOfViews?></td>
+  <td>
+    <form action="" method="post">
+      <input type="hidden" name="item-td" value="<?=$post_id?>">
+      <button type="submit" name="edit">E</button>
+      <button type="submit" name="delete">D</button>
+    </form>
+  </td>
+</tr>

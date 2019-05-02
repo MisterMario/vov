@@ -1,0 +1,15 @@
+<div id="add-block">
+  <form action="" method="post" id="post-editor" class="--form-margin7px">
+    <input type="hidden" name="item-id" value="<?=$post_id?>">
+    <input type="text" name="title" placeholder="Заголовок" value="<?=$post_title?>">
+    <select name="category" id="">
+      <?=$categoriesList?>
+    </select>
+    <input type="text" name="image" placeholder="Изображение" value="<?=$post_image?>">
+    <textarea name="description" rows="8" cols="80" placeholder="Краткое описание публикации" class="short-description"><?=$post_description?></textarea>
+    <textarea name="content" rows="8" cols="80" placeholder="Содержание публикации" class="content"><?=$post_content?></textarea>
+  </form>
+</div>
+<div id="controls">
+    <button type="submit" form="post-editor" name="form-type" value="<?=$form_type?>"><?=$btn_value?></button>
+</div>

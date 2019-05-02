@@ -1,0 +1,239 @@
+/* Styles by Mr_Mario (Savich Konstantin) */
+@import url(reset.css);
+
+html, html a, html textarea, html input, html button {
+  color: #646464;
+  color: #000000;
+  font-size: 15px;
+  font-family: arial;
+  text-decoration: none;
+}
+html a:hover {
+  text-decoration: underline;
+}
+html div, html form {
+  overflow: hidden;
+}
+html h2 {
+  font-size: 25px;
+}
+html button {
+  display: block;
+  cursor: pointer;
+}
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+#container #auth-panel {
+  width: 342px;
+  margin: 12% auto 0% auto;
+}
+#container #auth-panel #inside-auth-panel {
+  margin: 20px 18px;
+}
+#container #auth-panel #inside-auth-panel #logo {
+  width: 100%;
+}
+#container #auth-panel #inside-auth-panel #logo img {
+  display: block;
+  margin: 0 auto;
+}
+#container #auth-panel #inside-auth-panel #inputs {
+  width: 100%;
+  margin-top: 7px;
+}
+#container #auth-panel #inside-auth-panel #inputs form input {
+  width: 95.43%;
+  padding: 0px 5px;
+}
+#container #auth-panel #inside-auth-panel #inputs form input,
+#container #auth-panel #inside-auth-panel #inputs form button {
+  height: 44px;
+  border: 2px solid #000000;
+  margin-top: 4px;
+  text-align: center;
+  background: #ffffff;
+}
+#container #auth-panel #inside-auth-panel #inputs form input:first-child {
+  margin-top: 0px;
+}
+#container #auth-panel #inside-auth-panel #inputs form button {
+  width: 180px;
+  padding: 0px;
+  margin: 4px auto 0px auto;
+  font-size: 20px;
+}
+#container #auth-panel #inside-auth-panel #inputs form button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+/* Panel /////////////////////////////////////////////////////////////////////////////*/
+#container #panel {
+  width: 1196px;
+  margin: /*30px*/ auto;
+  border: 2px solid #2e2e2e;
+  min-height: 700px;
+  background: #363a41;
+}
+#container #panel #header {
+  width: 100%;
+  height: 57px;
+  background: #2e2e2e;
+}
+#container #panel #header #inside-header {
+  margin: 9.5px;
+}
+#container #panel #header #logo {
+  float: left;
+}
+#container #panel #header #user-info {
+  float: right;
+  margin-top: 7px;
+}
+#container #panel #header #user-info h2,
+#container #panel #header #user-info form {
+  display: block;
+  float: left;
+}
+#container #panel #header #user-info h2 {
+  color: #fff;
+  font-size: 21px;
+  margin-right: 5px;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
+#container #left-block {
+  float: left;
+  width: 20%;
+}
+#container #left-block #menu{
+  margin-top: 20px;
+}
+#container #left-block #menu #menu-header h1 {
+  text-align: center;
+  color: #fff;
+}
+#container #left-block #menu #menu-content {
+  margin-top: 10px;
+}
+#container #left-block #menu #menu-content ul li a {
+  display: block;
+  padding: 10px 18px;
+  color: #fff;
+}
+#container #left-block #menu #menu-content ul li a:hover {
+  background: #2e2e2e;
+  text-decoration: none;
+}
+#container #left-block #menu #menu-content ul div.separator {
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+#container #right-block {
+  float: left;
+  width: 80%;
+  background: #e6e6e6;
+}
+#container #right-block #inside-right-block {
+  margin: 15px;
+  min-height: 700px;
+}
+#container #right-block #inside-right-block #section-name h1 {
+  font-size: 20px;
+  color: #363a41;
+}
+#container #right-block #inside-right-block #table,
+#container #right-block #inside-right-block #add-block {
+  margin-top: 20px;
+}
+#container #right-block #inside-right-block #table table {
+  width: 100%;
+}
+#container #right-block #inside-right-block #table table tr {
+  border-bottom: 1px solid #363a41;
+}
+#container #right-block #inside-right-block #table table tr td {
+  vertical-align: middle;
+}
+#container #right-block #inside-right-block #table table tr.titles {
+  background: #363a41;
+  color: #fff;
+  font-weight: bold;
+}
+/* for news */
+#container #right-block #inside-right-block #table table tr td {
+  padding: 5px;
+}
+#container #right-block #inside-right-block #table table tr td.id {
+  width: 6%;
+}
+#container #right-block #inside-right-block #table table tr td.category {
+  width: 15%;
+}
+#container #right-block #inside-right-block #table table tr td.title {
+  width: 50%;
+}
+#container #right-block #inside-right-block #table table tr td.author {
+  width: 10%;
+}
+#container #right-block #inside-right-block #table table tr td.count-of-views {
+  width: 10%;
+}
+#container #right-block #inside-right-block #table table tr td.action {
+  width: 7%;
+}
+/* for widgets */
+#container #right-block #inside-right-block #table table tr td.w-title {
+  width: 87%;
+}
+#container #right-block #inside-right-block #table table tr td button {
+  display: block;
+  float: left;
+  padding: 1px;
+}
+#container #right-block #inside-right-block #controls {
+  margin-top: 10px;
+}
+#container #right-block #inside-right-block #controls button {
+  background: #363a41;
+  color: #fff;
+  border-radius: 0.4em;
+  padding: 5px;
+  cursor: pointer;
+  float: left;
+}
+#container #right-block #inside-right-block #controls button:hover {
+  background: #2e2e2e;
+}
+#container #right-block #inside-right-block #add-block input,
+#container #right-block #inside-right-block #add-block textarea,
+#container #right-block #inside-right-block #add-block select {
+  display: block;
+  width: 98.7%;
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid #646464;
+  color: #363a41;
+  margin-top: 7px;
+}
+#container #right-block #inside-right-block #add-block select {
+  width: 100%;
+}
+#container #right-block #inside-right-block #add-block textarea {
+  resize: none;
+}
+#container #right-block #inside-right-block #add-block textarea.short-description {
+  height: 130px;
+}
+#container #right-block #inside-right-block #add-block textarea.content {
+  height: 600px;
+}
+#container #right-block #inside-right-block .--form-margin7px {
+  margin-top: -7px;
+}
+#container #auth-panel #inside-auth-panel #inputs a.back-to-index {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
